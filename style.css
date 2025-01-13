@@ -1,0 +1,111 @@
+/* 기본 설정 */
+body {
+    font-family: 'Nanum Gothic', Arial, sans-serif; /* 한국어 폰트를 위한 설정 */
+    background-color: #f8f9fa; /* 연한 회색 */
+    color: #555; /* 중간 회색 */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* 헤더 스타일 */
+  header {
+    background-color: #ff6f91; /* 핑크 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #ffe4e9; /* 연한 핑크 */
+  }
+  
+  /* 메인 섹션 스타일 */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  main h2 {
+    border-bottom: 2px solid #ff6f91; /* 핑크 */
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    color: #ff6f91; /* 핑크 */
+  }
+  
+  main p {
+    margin: 10px 0;
+    line-height: 1.8;
+    color: #555; /* 중간 회색 */
+  }
+  
+  /* 리스트 스타일 */
+  ul {
+    padding: 0;
+    list-style-type: circle; /* 동그라미 아이콘 */
+    margin: 10px 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  /* 버튼 스타일 */
+  button {
+    background-color: #ff6f91; /* 핑크 */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e65a7b; /* 어두운 핑크 */
+  }
+  
+  /* 링크 스타일 */
+  a {
+    color: #ff6f91; /* 핑크 */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #e65a7b; /* 어두운 핑크 */
+    text-decoration: underline;
+  }
+  
+  /* 푸터 스타일 */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333; /* 어두운 회색 */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #ff6f91; /* 핑크 */
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #e65a7b; /* 어두운 핑크 */
+  }
+  
