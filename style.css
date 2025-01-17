@@ -52,13 +52,13 @@ body {
   
   /* 리스트 스타일 */
   ul {
-    padding: 0;
+    padding: 10;
     list-style-type: circle; /* 동그라미 아이콘 */
     margin: 10px 0;
   }
   
   ul li {
-    margin: 5px 0;
+    margin: 5px 10;
   }
   
   /* 버튼 스타일 */
